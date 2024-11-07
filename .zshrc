@@ -3,7 +3,7 @@
 if [[ -n "$DISPLAY" || -n "$WAYLAND_DISPLAY" ]]; then
     # Only run Fastfetch if not in VS Code
     if [[ "$TERM_PROGRAM" != "vscode" ]]; then
-#        ~/dotfiles/assets/scripts/set_terminal_colors.sh # Comment this line for real colors of terminal
+#        ~/Hyprland-dotfiles/assets/scripts/set_terminal_colors.sh # Comment this line for real colors of terminal
         fastfetch
     fi
 fi
@@ -87,7 +87,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-ZSH_CUSTOM="$HOME/dotfiles/assets/omz-custom"
+ZSH_CUSTOM="$HOME/Hyprland-dotfiles/assets/omz-custom"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
