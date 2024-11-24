@@ -12,6 +12,8 @@ export EDITOR=nvim
 
 #aliases
 alias ch_wipe='rm ~/.cache/cliphist/db'
+alias wu="wg-quick up nl"
+alias wd="wg-quick down nl"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -101,7 +103,7 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
-
+source ~/Hyprland-dotfiles/assets/omz-custom/.zsh_files/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
