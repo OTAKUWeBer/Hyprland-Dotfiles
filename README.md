@@ -59,7 +59,11 @@ This repository contains my personal Hyprland-dotfiles and configuration for set
     ```bash
     chsh -s $(which zsh)
     ```
-    
+
+## Keybinds
+
+Check the [keybinds.md](https://github.com/OTAKUWeBer/Hyprland-dotfiles/blob/main/keybinds.md) file for the keybind list.
+
 ## Additional Configuration
 
 Ensure to customize the configuration files as needed to suit your preferences. 
