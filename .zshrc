@@ -11,9 +11,16 @@ fi
 export EDITOR=nvim
 
 #aliases
-alias ch_wipe='rm ~/.cache/cliphist/db'
+alias ch_wipe='~/assets/bins/rustyclip clear'
+alias edit='code'
 alias wu="wg-quick up nl"
 alias wd="wg-quick down nl"
+alias cd="z"
+
+#pkg
+alias searchpkg="paru -Ss"
+alias install="paru -S"
+alias uninstall="paru -Rss"
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -103,7 +110,7 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
 )
-source ~/Hyprland-dotfiles/assets/omz-custom/.zsh_files/catppuccin_mocha-zsh-syntax-highlighting.zsh
+source ~/assets/omz-custom/.zsh_files/catppuccin_mocha-zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
